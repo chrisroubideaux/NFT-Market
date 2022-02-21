@@ -1,0 +1,211 @@
+.hero {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg');
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('https://images.pexels.com/photos/2832379/pexels-photo-2832379.jpeg?cs=srgb&dl=pexels-anni-roenkae-2832379.jpg&fm=jpg');
+  height: 32vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('https://images.pexels.com/photos/942317/pexels-photo-942317.jpeg?cs=srgb&dl=pexels-tim-mossholder-942317.jpg&fm=jpg');
+  height: 25rem;
+  border-radius: 30px;
+  background-size: cover;
+  background-position: center;
+}
+
+/*nav*/
+.navbar {
+  font-size: 1.5rem;
+  padding-top: 0.8rem;
+  background-color: #3c415c;
+  font-family: 'Abel', sans-serif;
+}
+
+.nav-link {
+  font-size: 2.5rem;
+  font-family: 'Abel', sans-serif;
+}
+.nav-link :hover {
+  color: #cae4db;
+}
+
+.nav-item {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.nav-item :hover {
+  color: #cae4db;
+}
+
+li a {
+  color: #696969;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+li :hover {
+  color: #696969;
+}
+/* h1 */
+
+/* profile */
+.profile {
+  background-color: rgb(170, 169, 169);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(182, 224, 224);
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+/* card */
+.card {
+  max-width: 300px;
+  border-radius: 10px;
+  margin: auto;
+  border-style: none;
+  background-color: #c9c7c7;
+  box-shadow: 0.1rem 0.1rem 0.8rem #353535;
+}
+.card-body {
+  border-radius: 10px;
+
+  margin: auto;
+  border-style: none;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.image {
+  border-radius: 10px;
+  box-shadow: 0.1rem 0.1rem 0.8rem #353535;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+/* buttons */
+.btn {
+  background-color: #3c415c;
+  color: #cae4db;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  transform: scale(1.07);
+  background-color: #616994;
+}
+
+p {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  color: #3c415c;
+}
+
+.par {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  color: #cae4db;
+}
+
+.hr {
+  width: 100%;
+  background-color: #3c415c;
+  align-items: center;
+}
+/* */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.form {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 30px;
+}
+
+.form-control {
+  border-radius: 30px;
+}
+
+.form-signin .checkbox {
+  font-weight: 30px;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 30px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.form-signin input[type='email'] {
+  border-radius: 30px;
+  margin-bottom: -1px;
+}
+.form-signin input[type='password'] {
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+/* social icon */
+.social-icon {
+  font-size: 20px;
+  color: #cae4db;
+}
+
+/* social icons */
+.social-icons {
+  font-size: 25px;
+  color: #3c415c;
+}
+
+.social-icons:hover {
+  transform: scale(1.07);
+  color: #4dbff8;
+}

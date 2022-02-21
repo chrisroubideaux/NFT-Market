@@ -1,0 +1,30 @@
+h1 {
+  font-family: 'Abel', sans-serif;
+  font-size: 40px;
+  color: #eaf0ee;
+}
+
+h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 2.5rem;
+  color: #3c415c;
+}
+
+h3 {
+  font-family: 'Abel', sans-serif;
+  font-size: 2rem;
+  color: #eaf0ee;
+}
+
+h4 {
+  font-family: 'Abel', sans-serif;
+  color: #3c415c;
+}
+
+h5 {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #babbbb;
+  text-shadow: 0.1rem 0.1rem 0.8rem #0f0f0f;
+}
