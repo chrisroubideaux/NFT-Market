@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
+import Header from '../components/Header';
 import Link from 'next/link';
 import { useWeb3 } from '@3rdweb/hooks';
 import { useEffect } from 'react';
@@ -60,7 +61,9 @@ export default function Home() {
           crossOrigin="anonymous"
         />
       </Head>
-      <div className="hero py-5">
+      <Header />
+
+      <div className=" home  py-5">
         <Toaster position="top-center" reverseOrder={false} />
         {address ? (
           <>

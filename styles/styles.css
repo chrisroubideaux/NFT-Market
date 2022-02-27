@@ -1,3 +1,8 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 .hero {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url('https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg');
@@ -5,7 +10,13 @@
   background-size: cover;
   background-position: center;
 }
-
+.home {
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+    url('https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?cs=srgb&dl=pexels-suzy-hazelwood-1629236.jpg&fm=jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
 .banner {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url('https://images.pexels.com/photos/2832379/pexels-photo-2832379.jpeg?cs=srgb&dl=pexels-anni-roenkae-2832379.jpg&fm=jpg');

@@ -27,18 +27,24 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav ">
             <li className="nav-item">
-              <Link className="nav-link pt-5" href="/collections">
-                collections
+              <Link className="nav-link" href="/Gallery">
+                Galery
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/create">
-                create
+              <Link className="nav-link pt-5 " href="/collections/">
+                collections
+              </Link>
+            </li>
+
+            <li className="nav-item">
+              <Link className="nav-link" href="/">
+                Profile
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" href="/">
-                Login
+                Wallet
               </Link>
             </li>
             <li className="nav-item dropdown">

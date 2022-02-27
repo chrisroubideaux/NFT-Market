@@ -6,7 +6,7 @@ import { Row, Col, Button, ButtonGroup } from 'react-bootstrap';
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div className="container ">
       <Row>
         <Col md={6}>
           <div className="container py-5">
@@ -18,7 +18,7 @@ const Hero = () => {
             </p>
 
             <ButtonGroup>
-              <Link href="/collections/">
+              <Link href="/collections/0xE2904f8b377e3a0A218b3e935AfB287d65560d3C">
                 <Button className="btn btn-sm">explore</Button>
               </Link>
 
